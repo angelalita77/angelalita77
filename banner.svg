@@ -149,14 +149,7 @@
   
 
   
-  <!-- Animated lines (game HUD style) -->
-  <line x1="50" y1="200" x2="300" y2="200" stroke="#64ffda" stroke-width="2" opacity="0.3">
-    <animate attributeName="x2" values="50;300;50" dur="2s" repeatCount="indefinite"/>
-  </line>
-  
-  <line x1="1150" y1="200" x2="900" y2="200" stroke="#4a9eff" stroke-width="2" opacity="0.3">
-    <animate attributeName="x2" values="1150;900;1150" dur="2s" repeatCount="indefinite"/>
-  </line>
+
   
   <!-- Main Content Container -->
   <g transform="translate(600, 200)">
@@ -188,10 +181,10 @@
   
   <!-- Tech/Code symbols at bottom -->
   <g transform="translate(450, 340)">
-    <text x="0" y="0" font-family="monospace" font-size="24" fill="#64ffda" opacity="0.6">&lt;/&gt;</text>
-    <text x="60" y="0" font-family="monospace" font-size="24" fill="#4a9eff" opacity="0.6">{ }</text>
-    <text x="120" y="0" font-family="monospace" font-size="24" fill="#64ffda" opacity="0.6">[ ]</text>
-    <text x="180" y="0" font-family="monospace" font-size="24" fill="#ffd700" opacity="0.6">( )</text>
+    <text x="45" y="0" font-family="monospace" font-size="24" fill="#64ffda" opacity="0.6">&lt;/&gt;</text>
+    <text x="105" y="0" font-family="monospace" font-size="24" fill="#4a9eff" opacity="0.6">{ }</text>
+    <text x="165" y="0" font-family="monospace" font-size="24" fill="#64ffda" opacity="0.6">[ ]</text>
+    <text x="225" y="0" font-family="monospace" font-size="24" fill="#ffd700" opacity="0.6">( )</text>
   </g>
   
   <!-- Bottom accent line with animation -->
