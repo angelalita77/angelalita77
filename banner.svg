@@ -1,0 +1,201 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient Background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a192f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#112240;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a365d;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Stronger glow for gaming elements -->
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Scanline effect -->
+    <pattern id="scanlines" width="100%" height="4" patternUnits="userSpaceOnUse">
+      <rect width="100%" height="2" fill="#000000" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  
+  <!-- Scanline overlay for retro gaming feel -->
+  <rect width="1200" height="400" fill="url(#scanlines)"/>
+  
+  <!-- Left side gaming elements -->
+  <g transform="translate(80, 100)">
+    <!-- Pixel heart (game life icon) -->
+    <rect x="0" y="10" width="10" height="10" fill="#ff4757"/>
+    <rect x="10" y="0" width="10" height="10" fill="#ff4757"/>
+    <rect x="20" y="0" width="10" height="10" fill="#ff4757"/>
+    <rect x="30" y="10" width="10" height="10" fill="#ff4757"/>
+    <rect x="0" y="20" width="10" height="10" fill="#ff4757"/>
+    <rect x="10" y="20" width="10" height="10" fill="#ff4757"/>
+    <rect x="20" y="20" width="10" height="10" fill="#ff4757"/>
+    <rect x="30" y="20" width="10" height="10" fill="#ff4757"/>
+    <rect x="10" y="30" width="10" height="10" fill="#ff4757"/>
+    <rect x="20" y="30" width="10" height="10" fill="#ff4757"/>
+    <rect x="20" y="40" width="10" height="10" fill="#ff4757"/>
+    
+    <!-- HP/MP bars (RPG style) -->
+    <rect x="0" y="80" width="120" height="12" fill="#1e3a5f" stroke="#64ffda" stroke-width="2"/>
+    <rect x="2" y="82" width="100" height="8" fill="#64ffda" opacity="0.8">
+      <animate attributeName="width" values="100;116;100" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="125" y="90" font-family="monospace" font-size="10" fill="#64ffda">HP</text>
+    
+    <rect x="0" y="100" width="120" height="12" fill="#1e3a5f" stroke="#4a9eff" stroke-width="2"/>
+    <rect x="2" y="102" width="85" height="8" fill="#4a9eff" opacity="0.8">
+      <animate attributeName="width" values="85;95;85" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="125" y="110" font-family="monospace" font-size="10" fill="#4a9eff">MP</text>
+  </g>
+  
+  <!-- Right side gaming elements -->
+  <g transform="translate(1000, 100)">
+    <!-- Pixel sword/weapon -->
+    <rect x="20" y="0" width="10" height="10" fill="#ffd700"/>
+    <rect x="20" y="10" width="10" height="10" fill="#ffd700"/>
+    <rect x="20" y="20" width="10" height="10" fill="#c0c0c0"/>
+    <rect x="20" y="30" width="10" height="10" fill="#c0c0c0"/>
+    <rect x="20" y="40" width="10" height="10" fill="#c0c0c0"/>
+    <rect x="10" y="50" width="10" height="10" fill="#8b4513"/>
+    <rect x="20" y="50" width="10" height="10" fill="#8b4513"/>
+    <rect x="30" y="50" width="10" height="10" fill="#8b4513"/>
+    <rect x="20" y="60" width="10" height="10" fill="#8b4513"/>
+    
+    <!-- Level indicator -->
+    <text x="0" y="100" font-family="'Press Start 2P', monospace" font-size="14" fill="#ffd700">LVL</text>
+    <text x="50" y="100" font-family="'Press Start 2P', monospace" font-size="18" fill="#64ffda" filter="url(#strongGlow)">99</text>
+  </g>
+  
+  <!-- Bottom left game controller D-pad -->
+  <g transform="translate(100, 300)">
+    <rect x="20" y="0" width="20" height="20" fill="#4a9eff" opacity="0.6"/>
+    <rect x="0" y="20" width="20" height="20" fill="#4a9eff" opacity="0.6"/>
+    <rect x="20" y="20" width="20" height="20" fill="#1e3a5f" stroke="#4a9eff" stroke-width="2"/>
+    <rect x="40" y="20" width="20" height="20" fill="#4a9eff" opacity="0.6"/>
+    <rect x="20" y="40" width="20" height="20" fill="#4a9eff" opacity="0.6"/>
+  </g>
+  
+  <!-- Bottom right action buttons (game controller) -->
+  <g transform="translate(1050, 300)">
+    <circle cx="0" cy="20" r="12" fill="none" stroke="#64ffda" stroke-width="3" opacity="0.8"/>
+    <text x="0" y="25" font-family="monospace" font-size="12" fill="#64ffda" text-anchor="middle" font-weight="bold">A</text>
+    
+    <circle cx="30" cy="0" r="12" fill="none" stroke="#ff4757" stroke-width="3" opacity="0.8"/>
+    <text x="30" y="5" font-family="monospace" font-size="12" fill="#ff4757" text-anchor="middle" font-weight="bold">B</text>
+    
+    <circle cx="60" cy="20" r="12" fill="none" stroke="#ffd700" stroke-width="3" opacity="0.8"/>
+    <text x="60" y="25" font-family="monospace" font-size="12" fill="#ffd700" text-anchor="middle" font-weight="bold">X</text>
+    
+    <circle cx="30" cy="40" r="12" fill="none" stroke="#4a9eff" stroke-width="3" opacity="0.8"/>
+    <text x="30" y="45" font-family="monospace" font-size="12" fill="#4a9eff" text-anchor="middle" font-weight="bold">Y</text>
+  </g>
+  
+  <!-- Pixel coins/collectibles scattered -->
+  <g opacity="0.4">
+    <circle cx="250" cy="80" r="8" fill="#ffd700">
+      <animate attributeName="cy" values="80;70;80" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="350" r="8" fill="#ffd700">
+      <animate attributeName="cy" values="350;340;350" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="350" r="8" fill="#64ffda">
+      <animate attributeName="cy" values="350;340;350" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Pixel stars (power-ups) -->
+  <g opacity="0.5">
+    <polygon points="180,120 185,130 195,130 187,136 190,146 180,140 170,146 173,136 165,130 175,130" fill="#ffd700" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0 180 133" to="360 180 133" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="1020,80 1025,90 1035,90 1027,96 1030,106 1020,100 1010,106 1013,96 1005,90 1015,90" fill="#64ffda" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0 1020 93" to="360 1020 93" dur="3.5s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- HUD corner brackets (game UI style) -->
+  <g stroke="#64ffda" stroke-width="3" fill="none" opacity="0.5">
+    <path d="M 30 30 L 30 50 L 50 50"/>
+    <path d="M 1170 30 L 1170 50 L 1150 50"/>
+    <path d="M 30 370 L 30 350 L 50 350"/>
+    <path d="M 1170 370 L 1170 350 L 1150 350"/>
+  </g>
+  
+
+  
+  <!-- Animated lines (game HUD style) -->
+  <line x1="50" y1="200" x2="300" y2="200" stroke="#64ffda" stroke-width="2" opacity="0.3">
+    <animate attributeName="x2" values="50;300;50" dur="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="1150" y1="200" x2="900" y2="200" stroke="#4a9eff" stroke-width="2" opacity="0.3">
+    <animate attributeName="x2" values="1150;900;1150" dur="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Main Content Container -->
+  <g transform="translate(600, 200)">
+    <!-- Main Name with game-style font -->
+    <text x="0" y="-40" font-family="'Courier New', monospace" font-size="72" font-weight="bold" 
+          fill="#e6f1ff" text-anchor="middle" filter="url(#strongGlow)">
+      ANJEANETTE
+    </text>
+    
+    <!-- Underline accent with glow -->
+    <line x1="-200" y1="-20" x2="200" y2="-20" stroke="#64ffda" stroke-width="3" opacity="0.8" filter="url(#glow)"/>
+    
+    <!-- Title/Role -->
+    <text x="0" y="30" font-family="'Segoe UI', Arial, sans-serif" font-size="28" 
+          fill="#8892b0" text-anchor="middle" letter-spacing="2">
+      Full Stack Developer
+    </text>
+    
+    <text x="0" y="65" font-family="'Segoe UI', Arial, sans-serif" font-size="24" 
+          fill="#64ffda" text-anchor="middle" letter-spacing="1">
+      Software Engineer
+    </text>
+    
+    <!-- Game-style flashing cursor -->
+    <text x="240" y="65" font-family="monospace" font-size="24" fill="#64ffda">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>_
+    </text>
+  </g>
+  
+  <!-- Tech/Code symbols at bottom -->
+  <g transform="translate(450, 340)">
+    <text x="0" y="0" font-family="monospace" font-size="24" fill="#64ffda" opacity="0.6">&lt;/&gt;</text>
+    <text x="60" y="0" font-family="monospace" font-size="24" fill="#4a9eff" opacity="0.6">{ }</text>
+    <text x="120" y="0" font-family="monospace" font-size="24" fill="#64ffda" opacity="0.6">[ ]</text>
+    <text x="180" y="0" font-family="monospace" font-size="24" fill="#ffd700" opacity="0.6">( )</text>
+  </g>
+  
+  <!-- Bottom accent line with animation -->
+  <rect x="0" y="395" width="0" height="5" fill="#64ffda" opacity="0.5">
+    <animate attributeName="width" from="0" to="1200" dur="2s" fill="freeze"/>
+  </rect>
+</svg>
