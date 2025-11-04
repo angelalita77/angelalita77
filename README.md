@@ -91,8 +91,16 @@ A React + ExpressJS memory game inspired by everyone’s favorite interdimension
 </p>
 
 <p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=Angelalita77&theme=dark&hide_border=false" alt="GitHub Stats" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelalita77&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
+
+<!-- Github Stats Aligned to the Left
+![](https://nirzak-streak-stats.vercel.app/?user=Angelalita77&theme=dark&hide_border=false)<br/>
+-->
 
 ---
 
