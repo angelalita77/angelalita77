@@ -1,4 +1,5 @@
 <!-- Profile Header -->
+![Banner](./banner.svg)
 <h1 align="center">🎮 Hey there, I'm Anjeanette</h1>
 <h3 align="center">💻 Front-End Developer | 🕹️ Aspiring Game Developer | MERN Stack Explorer</h3>
 
