@@ -16,9 +16,9 @@
 ### 🧠 About Me  
 - 💡 I love building interactive experiences — from **web apps** to **browser-based games**.  
 - 🧩 Started with **HTML, CSS, JavaScript**, and now exploring the **MERN stack** and **game frameworks**.  
-- 🎮 Currently developing fun game projects like **Rock Paper Scissors** and **Rick & Morty Match Game**.  
+- 🎮 Currently developing fun projects like **Rock Paper Scissors**, **Rick & Morty Match Game**, and **Curated Youtube Website for Parents**.  
 - 🚀 Always leveling up — one function, one frame, one bug fix at a time.  
-- ⚡ Fun fact: My first game bug made every player win. I call that “inclusive design.” 😅  
+- ⚡ Fun fact: As soon I was able to use dictation-to-voice on computers, the first sentence I tried was “Shall we play a game.” 😅  
 
 ---
 
