@@ -48,27 +48,15 @@
 
 
 
-
-
-
-
 ### 🎮 Featured Projects  
 
 ---
 
-#### 🎬 ScreenGuard - Curating Youtube Webage
-A React + ExpressJS memory game inspired by everyone’s favorite interdimensional duo.  
-🧩 *Tech:* React, REST API, MongoDB, ExpressJS, HTML, CSS  
-🎯 *Focus:* Component-based architecture, API integration
-🔗 [View the repo](#) *(add your link)* 
-
----
-
-#### ✊ Rock Paper Scissors  
-Because sometimes, the simplest games teach the best lessons.  
-🧠 *Tech:* HTML, CSS, JavaScript  
-🎯 *Focus:* Game logic, DOM manipulation, event handling.  
-🔗 [Play it here!](#) *(add your link)*  
+#### 🎬 ScreenGuard - Curated Youtube Webage
+A website for parents to select the youtube videos they would want their kids to view <br>
+🧩 *Tech:* React, Youtube API, MongoDB, ExpressJS, HTML, CSS  
+🎯 *Focus:* Component-based architecture, API integration. <br>
+🔗 [View the repo](https://github.com/angelalita77/Capstone-ScreenGuard-FE)
 
 ---
 
@@ -77,6 +65,22 @@ A React + ExpressJS memory game inspired by everyone’s favorite interdimension
 🧩 *Tech:* React, ExpressJS, HTML, CSS  
 🎯 *Focus:* Component-based architecture, API integration, and gameplay logic.  
 🔗 [View the repo](#) *(add your link)*  
+
+---
+
+#### ✊ Anime Quote Generator
+Simple quote generator pulling from an API 
+🧠 *Tech:* HTML, CSS, JavaScript, Fetch  
+🎯 *Focus:* DOM manipulation, event handling.  
+🔗 [View the repo!](https://github.com/angelalita77/308ASBA-JavaScript-Web-Application) 
+
+---
+
+#### ✊ Rock Paper Scissors  
+Because sometimes, the simplest games teach the best lessons.  
+🧠 *Tech:* HTML, CSS, JavaScript  
+🎯 *Focus:* Game logic, DOM manipulation, event handling.  
+🔗 [Play it here!](#) *(add your link)*  
 
 ---
 
