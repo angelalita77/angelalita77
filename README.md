@@ -64,7 +64,8 @@ A website for parents to select the youtube videos they would want their kids to
 A React + ExpressJS memory game inspired by everyone’s favorite interdimensional duo.  
 🧩 *Tech:* React, ExpressJS, HTML, CSS  
 🎯 *Focus:* Component-based architecture, API integration, and gameplay logic.  
-🔗 [View the repo](https://github.com/angelalita77/320SBA-React-Web-Application-Project)
+🔗 [View the repo](https://github.com/angelalita77/320SBA-React-Web-Application-Project) <br>
+🔗 [Click here for website](https://rickmorty-gamegallery.netlify.app/)
 
 ---
 
