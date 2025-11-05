@@ -1,6 +1,6 @@
-<!-- Profile Under Constuction Banner Sign -->
+<!-- Profile Under Constuction Banner Sign 
 ![Under Construction](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFCC00&background=000000&center=true&vCenter=true&repeat=true&width=800&height=60&lines=⚠️+PROFILE+UNDER+CONSTRUCTION+🚧)
-
+-->
 
 <!-- Profile Header -->
 ![Banner](./banner.svg)
@@ -19,7 +19,7 @@
 ### 🧠 About Me  
 - 💡 I love building interactive experiences — from **web apps** to **browser-based games**.  
 - 🧩 Started with **HTML, CSS, JavaScript**, and now exploring the **MERN stack** and **game frameworks**.  
-- 🎮 Currently developing fun projects like **Rock Paper Scissors**, **Rick & Morty Match Game**, and **Curated Youtube Website for Parents**.  
+- 💻 Currently developing fun projects like **Curated Youtube Website for Parents** and **GUI for Rock Paper Scissors Game**  
 - 🚀 Always leveling up — one function, one frame, one bug fix at a time.  
 - ⚡ Fun fact: As soon I was able to use dictation-to-voice on computers, the first sentence I tried was “Shall we play a game.” 😅  
 
