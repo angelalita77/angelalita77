@@ -52,7 +52,7 @@
 
 ---
 
-#### 🎬 ScreenGuard - Curated Youtube Webage
+#### 🎬 Perscholas CAPSTONE: ScreenGuard - Curated Youtube Webage
 A website for parents to select the youtube videos they would want their kids to view <br>
 🧩 *Tech:* React, Youtube API, MongoDB, ExpressJS, HTML, CSS  
 🎯 *Focus:* Component-based architecture, API integration. <br>
@@ -97,10 +97,10 @@ Because sometimes, the simplest games teach the best lessons.
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="https://nirzak-streak-stats.vercel.app/?user=Angelalita77&theme=dark&hide_border=false" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-streak-stats-ten-peach.vercel.app?user=angelalita77&theme=github-dark-blue&hide_border=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelalita77&layout=compact&theme=tokyonight" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelalita77&layout=compact&theme=blue-green" alt="Top Languages" width="100%" />
     </td>
   </tr>
 </table>
