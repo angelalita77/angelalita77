@@ -64,7 +64,7 @@ A website for parents to select the youtube videos they would want their kids to
 A React + ExpressJS memory game inspired by everyone’s favorite interdimensional duo.  
 🧩 *Tech:* React, ExpressJS, HTML, CSS  
 🎯 *Focus:* Component-based architecture, API integration, and gameplay logic.  
-🔗 [View the repo](#) *(add your link)*  
+🔗 [View the repo](https://github.com/angelalita77/320SBA-React-Web-Application-Project)
 
 ---
 
@@ -75,42 +75,36 @@ Simple quote generator pulling from an API
 🔗 [View the repo!](https://github.com/angelalita77/308ASBA-JavaScript-Web-Application) 
 
 ---
-
+<!--
 #### ✊ Rock Paper Scissors  
 Because sometimes, the simplest games teach the best lessons.  
-🧠 *Tech:* HTML, CSS, JavaScript  
-🎯 *Focus:* Game logic, DOM manipulation, event handling.  
-🔗 [Play it here!](#) *(add your link)*  
+🧠 *Tech:* JavaScript  
+🎯 *Focus:* Game logic  
+🔗 [View the repo!](https://github.com/angelalita77/RockPaperScissorJS/blob/main/rps_game.js)
 
 ---
+-->
 
 ### 🧩 Currently Exploring  
 - ⚛️ React hooks and state management
-<!--
-- 🎨 JavaScript game loops, sprites, and animation  
--->
-- 🌍 Fullstack deployment (MERN)  
+- 🌍 Fullstack deployment (MERN)
+- 🎮 Constructing the GUI to an old JS only Rock Paper Scissors game
 
 
 ---
 
 ### 📊 GitHub Stats  
+<table align="center">
+  <tr>
+    <td width="50%">
+      <img src="https://nirzak-streak-stats.vercel.app/?user=Angelalita77&theme=dark&hide_border=false" alt="GitHub Stats" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelalita77&layout=compact&theme=tokyonight" alt="Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=angelalita77&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Angelalita77&theme=dark&hide_border=false" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelalita77&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
-<!-- Github Stats Aligned to the Left
-![](https://nirzak-streak-stats.vercel.app/?user=Angelalita77&theme=dark&hide_border=false)<br/>
--->
 
 ---
 
