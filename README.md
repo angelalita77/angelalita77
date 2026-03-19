@@ -73,7 +73,8 @@ A React + ExpressJS memory game inspired by everyone’s favorite interdimension
 Simple quote generator pulling from an API 
 🧠 *Tech:* HTML, CSS, JavaScript, Fetch  
 🎯 *Focus:* DOM manipulation, event handling.  
-🔗 [View the repo!](https://github.com/angelalita77/308ASBA-JavaScript-Web-Application) 
+🔗 [View the repo!](https://github.com/angelalita77/308ASBA-JavaScript-Web-Application)
+🔗 [Click here for the website](https://github.com/angelalita77/320SBA-React-Web-Application-Project](https://thebestanimequotes.netlify.app/) <br>
 
 ---
 <!--
